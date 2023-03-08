@@ -10,5 +10,11 @@ namespace Ejemplo01_JesusCG
     {
         private string _nombre;
         private string _apellidos;
+
+        public Modelo()
+        {
+            _nombre = "Desconocido";
+            _apellidos = "Desconocido";
+        }
     }
 }
